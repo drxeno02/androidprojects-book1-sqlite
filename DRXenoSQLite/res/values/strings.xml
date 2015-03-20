@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- app labels -->
+    <string name="app_name">DRXeno\'s SQLite</string>
+    <string name="txt_meta">[meta]</string>
+    <string name="txt_desc">Table \'Example\' already exists. Add and delete items in this table as you wish</string>
+    <string name="txt_new">Add New</string>
+    <string name="txt_add_entry">Add entry</string>
+    <string name="txt_delete">Delete</string>
+    <string name="txt_delete_entry">Delete entry by position</string>
+    <string name="txt_advance_mode">Advance Mode</string>
+    
+	<string name="et_empty">Must input information</string>
+</resources>
