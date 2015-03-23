@@ -43,7 +43,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
 	private static final String DATABASE_NAME = "database.db";
 	private static final String DATABASE_PATH = "data/sqlite/example/";
-	private static final String DATABASE_TABLE = "tbl_master";
 	private static final int DATABASE_VERSION = 1;
 
 	public DatabaseHelper(Context context) {
@@ -77,7 +76,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 		// TODO Auto-generated method stub
 		System.out.println("Upgrading db version (v" + oldVersion +
 			") to (v" + newVersion + ")");
-		db.execSQL("DROP TABLE IF EXISTS " + DATABASE_TABLE);
+		db.execSQL("DROP TABLE IF EXISTS " + ExampleTable.TABLE_NAME);
 		onCreate(db);
 
 	}
@@ -371,7 +370,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 	 * @param Query
 	 * @return
 	 */
-	@SuppressWarnings("resource")
 	public ArrayList<Cursor> getData(String Query) {
 		mDatabase = getWritableDatabase();
 		String[] strArry = new String[] {"mesage"};
