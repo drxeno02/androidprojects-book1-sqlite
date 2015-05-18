@@ -9,7 +9,7 @@
 
     <TextView
         android:id="@+id/tv"
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/txt_add_entry"
         android:padding="8dp"
@@ -18,7 +18,7 @@
         android:textSize="@dimen/font_size_18" />
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp"
@@ -33,7 +33,7 @@
 
         <EditText
             android:id="@+id/edt_add"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt_add_entry"
             android:imeOptions="actionDone"
@@ -46,7 +46,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp" >
@@ -60,7 +60,7 @@
 
         <EditText
             android:id="@+id/edt_delete"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/txt_delete_entry"
             android:imeOptions="actionDone"
@@ -73,7 +73,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="fill_parent"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
